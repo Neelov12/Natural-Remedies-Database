@@ -1,0 +1,122 @@
+Database changed
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
++---------+--------------+
+| user_ID | user_name    |
++---------+--------------+
+|       4 | Sara Maguire |
++---------+--------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
++---------+-----------------+--------+
+| user_ID | user_name       | gender |
++---------+-----------------+--------+
+|       3 | Larissa Sanders | Female |
+|       4 | Sara Maguire    | Female |
++---------+-----------------+--------+
+2 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
++-----------+---------+--------------------+--------+------+------------------------------+---------------+-----------------+-------------+-----------------------------------------------------------------+
+| remedy_ID | user_ID | user_name          | gender | age  | allergies                    | bookmark_date | remedy_name     | remedy_type | usage_description                                               |
++-----------+---------+--------------------+--------+------+------------------------------+---------------+-----------------+-------------+-----------------------------------------------------------------+
+|         3 |       1 | John Anthony Smith | Male   |   34 | Chemotherapy medications     | 2022-01-21    | Desensitization | Theraputic  | Gradual exposure to allergy when no chemical alternative exists |
+|         3 |       3 | Larissa Sanders    | Female |   21 | Ibuprofen, aspirin, naproxen | 2015-11-04    | Desensitization | Theraputic  | Gradual exposure to allergy when no chemical alternative exists |
++-----------+---------+--------------------+--------+------+------------------------------+---------------+-----------------+-------------+-----------------------------------------------------------------+
+2 rows in set (0.01 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
++---------+-------------------------+--------+------+--------------------------------------------------------+
+| user_ID | user_name               | gender | age  | allergies                                              |
++---------+-------------------------+--------+------+--------------------------------------------------------+
+|       3 | Larissa Sanders         | Female |   21 | Ibuprofen, aspirin, naproxen                           |
+|       2 | Edward McCain           | Male   |   33 | Penicillin                                             |
+|       1 | John Anthony Smith      | Male   |   34 | Chemotherapy medications                               |
+|       5 | Stephen Douglas Anthony | Male   |   41 | Lidocaine, novocaine, propofol, desflurane, isoflurane |
+|       4 | Sara Maguire            | Female |   72 | Penicillin, insulin                                    |
++---------+-------------------------+--------+------+--------------------------------------------------------+
+5 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
++-----------+---------+-------------------------+--------+------+--------------------------------------------------------+---------------+-----------------+-------------+-----------------------------------------------------------------+
+| remedy_ID | user_ID | user_name               | gender | age  | allergies                                              | bookmark_date | remedy_name     | remedy_type | usage_description                                               |
++-----------+---------+-------------------------+--------+------+--------------------------------------------------------+---------------+-----------------+-------------+-----------------------------------------------------------------+
+|         3 |       1 | John Anthony Smith      | Male   |   34 | Chemotherapy medications                               | 2022-01-21    | Desensitization | Theraputic  | Gradual exposure to allergy when no chemical alternative exists |
+|         1 |       2 | Edward McCain           | Male   |   33 | Penicillin                                             | 2020-05-03    | Tetracycline    | Antibiotic  | Used as alternative for penicillin                              |
+|         4 |       5 | Stephen Douglas Anthony | Male   |   41 | Lidocaine, novocaine, propofol, desflurane, isoflurane | 2023-03-30    | Bupivacaine     | Anesthetic  | Used as alternative for other anesthetics                       |
++-----------+---------+-------------------------+--------+------+--------------------------------------------------------+---------------+-----------------+-------------+-----------------------------------------------------------------+
+3 rows in set (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.00 sec)
